@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/common/include/common/RnNoiseCommonPlugin.h
+memory
+-
+vector
+-
+
+/home/diprotiv/Desktop/Test/noise-suppression-for-voice/src/ladspa_plugin/RnNoiseLadspaPlugin.cpp
+RnNoiseLadspaPlugin.h
+/home/diprotiv/Desktop/Test/noise-suppression-for-voice/src/ladspa_plugin/RnNoiseLadspaPlugin.h
+
+/home/diprotiv/Desktop/Test/noise-suppression-for-voice/src/ladspa_plugin/RnNoiseLadspaPlugin.h
+ladspa++.h
+/home/diprotiv/Desktop/Test/noise-suppression-for-voice/src/ladspa_plugin/ladspa++.h
+common/RnNoiseCommonPlugin.h
+/home/diprotiv/Desktop/Test/noise-suppression-for-voice/src/ladspa_plugin/common/RnNoiseCommonPlugin.h
+
+/home/diprotiv/Desktop/Test/noise-suppression-for-voice/src/ladspa_plugin/ladspa++.h
+tuple
+-
+array
+-
+cassert
+-
+ladspa.h
+/home/diprotiv/Desktop/Test/noise-suppression-for-voice/src/ladspa_plugin/ladspa.h
+
+/home/diprotiv/Desktop/Test/noise-suppression-for-voice/src/ladspa_plugin/ladspa.h
+

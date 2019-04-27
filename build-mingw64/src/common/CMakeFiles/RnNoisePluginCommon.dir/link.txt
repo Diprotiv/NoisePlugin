@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libRnNoisePluginCommon.a  CMakeFiles/RnNoisePluginCommon.dir/src/RnNoiseCommonPlugin.cpp.obj
+/usr/bin/ranlib ../../lib/libRnNoisePluginCommon.a

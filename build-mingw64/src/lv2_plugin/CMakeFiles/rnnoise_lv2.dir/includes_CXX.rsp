@@ -1,0 +1,1 @@
+-I/home/diprotiv/Desktop/Test/noise-suppression-for-voice/src/lv2_plugin -I/home/diprotiv/Desktop/Test/noise-suppression-for-voice/src/common/include -I/home/diprotiv/Desktop/Test/noise-suppression-for-voice/src/rnnoise/include 
