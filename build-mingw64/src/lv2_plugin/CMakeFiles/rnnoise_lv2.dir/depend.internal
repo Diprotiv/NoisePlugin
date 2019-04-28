@@ -4,13 +4,13 @@
 src/lv2_plugin/CMakeFiles/rnnoise_lv2.dir/RnNoiseLv2Lib.cpp.obj
  ../src/lv2_plugin/lv2core/Plugin.hpp
  ../src/lv2_plugin/lv2core/lv2.h
- /home/diprotiv/Desktop/Test/noise-suppression-for-voice/src/lv2_plugin/RnNoiseLv2Lib.cpp
- /home/diprotiv/Desktop/Test/noise-suppression-for-voice/src/lv2_plugin/RnNoiseLv2Lib.h
- /home/diprotiv/Desktop/Test/noise-suppression-for-voice/src/lv2_plugin/RnNoiseLv2Plugin.h
- /home/diprotiv/Desktop/Test/noise-suppression-for-voice/src/lv2_plugin/lv2core/Lib.hpp
+ /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/src/lv2_plugin/RnNoiseLv2Lib.cpp
+ /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/src/lv2_plugin/RnNoiseLv2Lib.h
+ /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/src/lv2_plugin/RnNoiseLv2Plugin.h
+ /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/src/lv2_plugin/lv2core/Lib.hpp
 src/lv2_plugin/CMakeFiles/rnnoise_lv2.dir/RnNoiseLv2Plugin.cpp.obj
  ../src/common/include/common/RnNoiseCommonPlugin.h
  ../src/lv2_plugin/lv2core/lv2.h
- /home/diprotiv/Desktop/Test/noise-suppression-for-voice/src/lv2_plugin/RnNoiseLv2Plugin.cpp
- /home/diprotiv/Desktop/Test/noise-suppression-for-voice/src/lv2_plugin/RnNoiseLv2Plugin.h
- /home/diprotiv/Desktop/Test/noise-suppression-for-voice/src/lv2_plugin/lv2core/Plugin.hpp
+ /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/src/lv2_plugin/RnNoiseLv2Plugin.cpp
+ /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/src/lv2_plugin/RnNoiseLv2Plugin.h
+ /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/src/lv2_plugin/lv2core/Plugin.hpp

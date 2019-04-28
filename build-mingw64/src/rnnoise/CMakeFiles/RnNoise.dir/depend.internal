@@ -7,7 +7,7 @@ src/rnnoise/CMakeFiles/RnNoise.dir/src/celt_lpc.c.obj
  ../src/rnnoise/include/rnnoise/common.h
  ../src/rnnoise/include/rnnoise/opus_types.h
  ../src/rnnoise/include/rnnoise/pitch.h
- /home/diprotiv/Desktop/Test/noise-suppression-for-voice/src/rnnoise/src/celt_lpc.c
+ /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/src/rnnoise/src/celt_lpc.c
 src/rnnoise/CMakeFiles/RnNoise.dir/src/denoise.c.obj
  ../src/rnnoise/include/rnnoise/arch.h
  ../src/rnnoise/include/rnnoise/common.h
@@ -17,21 +17,21 @@ src/rnnoise/CMakeFiles/RnNoise.dir/src/denoise.c.obj
  ../src/rnnoise/include/rnnoise/rnn.h
  ../src/rnnoise/include/rnnoise/rnn_data.h
  ../src/rnnoise/include/rnnoise/rnnoise.h
- /home/diprotiv/Desktop/Test/noise-suppression-for-voice/src/rnnoise/src/denoise.c
+ /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/src/rnnoise/src/denoise.c
 src/rnnoise/CMakeFiles/RnNoise.dir/src/kiss_fft.c.obj
  ../src/rnnoise/include/rnnoise/_kiss_fft_guts.h
  ../src/rnnoise/include/rnnoise/arch.h
  ../src/rnnoise/include/rnnoise/common.h
  ../src/rnnoise/include/rnnoise/kiss_fft.h
  ../src/rnnoise/include/rnnoise/opus_types.h
- /home/diprotiv/Desktop/Test/noise-suppression-for-voice/src/rnnoise/src/kiss_fft.c
+ /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/src/rnnoise/src/kiss_fft.c
 src/rnnoise/CMakeFiles/RnNoise.dir/src/pitch.c.obj
  ../src/rnnoise/include/rnnoise/arch.h
  ../src/rnnoise/include/rnnoise/celt_lpc.h
  ../src/rnnoise/include/rnnoise/common.h
  ../src/rnnoise/include/rnnoise/opus_types.h
  ../src/rnnoise/include/rnnoise/pitch.h
- /home/diprotiv/Desktop/Test/noise-suppression-for-voice/src/rnnoise/src/pitch.c
+ /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/src/rnnoise/src/pitch.c
 src/rnnoise/CMakeFiles/RnNoise.dir/src/rnn.c.obj
  ../src/rnnoise/include/rnnoise/arch.h
  ../src/rnnoise/include/rnnoise/common.h
@@ -39,8 +39,8 @@ src/rnnoise/CMakeFiles/RnNoise.dir/src/rnn.c.obj
  ../src/rnnoise/include/rnnoise/rnn.h
  ../src/rnnoise/include/rnnoise/rnn_data.h
  ../src/rnnoise/include/rnnoise/tansig_table.h
- /home/diprotiv/Desktop/Test/noise-suppression-for-voice/src/rnnoise/src/rnn.c
+ /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/src/rnnoise/src/rnn.c
 src/rnnoise/CMakeFiles/RnNoise.dir/src/rnn_data.c.obj
  ../src/rnnoise/include/rnnoise/opus_types.h
  ../src/rnnoise/include/rnnoise/rnn.h
- /home/diprotiv/Desktop/Test/noise-suppression-for-voice/src/rnnoise/src/rnn_data.c
+ /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/src/rnnoise/src/rnn_data.c

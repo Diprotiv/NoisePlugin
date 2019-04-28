@@ -48,10 +48,10 @@ RM = /home/linuxbrew/.linuxbrew/Cellar/cmake/3.13.4/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/diprotiv/Desktop/Test/noise-suppression-for-voice
+CMAKE_SOURCE_DIR = /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64
+CMAKE_BINARY_DIR = /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,9 +126,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/CMakeFiles /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/CMakeFiles /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

@@ -14,9 +14,9 @@ vector
 
 ../src/rnnoise/include/rnnoise/rnnoise.h
 
-/home/diprotiv/Desktop/Test/noise-suppression-for-voice/src/common/src/RnNoiseCommonPlugin.cpp
+/home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/src/common/src/RnNoiseCommonPlugin.cpp
 common/RnNoiseCommonPlugin.h
-/home/diprotiv/Desktop/Test/noise-suppression-for-voice/src/common/src/common/RnNoiseCommonPlugin.h
+/home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/src/common/src/common/RnNoiseCommonPlugin.h
 cstring
 -
 ios

@@ -3,7 +3,7 @@
 
 src/ladspa_plugin/CMakeFiles/rnnoise_ladspa.dir/RnNoiseLadspaPlugin.cpp.obj
  ../src/common/include/common/RnNoiseCommonPlugin.h
- /home/diprotiv/Desktop/Test/noise-suppression-for-voice/src/ladspa_plugin/RnNoiseLadspaPlugin.cpp
- /home/diprotiv/Desktop/Test/noise-suppression-for-voice/src/ladspa_plugin/RnNoiseLadspaPlugin.h
- /home/diprotiv/Desktop/Test/noise-suppression-for-voice/src/ladspa_plugin/ladspa++.h
- /home/diprotiv/Desktop/Test/noise-suppression-for-voice/src/ladspa_plugin/ladspa.h
+ /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/src/ladspa_plugin/RnNoiseLadspaPlugin.cpp
+ /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/src/ladspa_plugin/RnNoiseLadspaPlugin.h
+ /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/src/ladspa_plugin/ladspa++.h
+ /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/src/ladspa_plugin/ladspa.h

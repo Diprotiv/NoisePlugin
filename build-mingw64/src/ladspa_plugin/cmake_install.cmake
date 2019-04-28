@@ -1,4 +1,4 @@
-# Install script for directory: /home/diprotiv/Desktop/Test/noise-suppression-for-voice/src/ladspa_plugin
+# Install script for directory: /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/src/ladspa_plugin
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,15 +33,15 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "/home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/lib/librnnoise_ladspa.dll.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "/home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/lib/librnnoise_ladspa.dll.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE SHARED_LIBRARY FILES "/home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/bin/ladspa/librnnoise_ladspa.dll")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE SHARED_LIBRARY FILES "/home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/bin/ladspa/librnnoise_ladspa.dll")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/librnnoise_ladspa.dll" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/librnnoise_ladspa.dll")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/librnnoise_ladspa.dll")
+      execute_process(COMMAND "/usr/bin/x86_64-w64-mingw32-strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/librnnoise_ladspa.dll")
     endif()
   endif()
 endif()

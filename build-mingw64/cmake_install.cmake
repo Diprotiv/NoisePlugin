@@ -1,4 +1,4 @@
-# Install script for directory: /home/diprotiv/Desktop/Test/noise-suppression-for-voice
+# Install script for directory: /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,11 +34,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/src/rnnoise/cmake_install.cmake")
-  include("/home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/src/common/cmake_install.cmake")
-  include("/home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/src/vst_plugin/cmake_install.cmake")
-  include("/home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/src/lv2_plugin/cmake_install.cmake")
-  include("/home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/src/ladspa_plugin/cmake_install.cmake")
+  include("/home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/src/rnnoise/cmake_install.cmake")
+  include("/home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/src/common/cmake_install.cmake")
+  include("/home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/src/vst_plugin/cmake_install.cmake")
+  include("/home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/src/lv2_plugin/cmake_install.cmake")
+  include("/home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/src/ladspa_plugin/cmake_install.cmake")
 
 endif()
 
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

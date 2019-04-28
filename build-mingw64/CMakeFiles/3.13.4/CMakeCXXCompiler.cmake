@@ -18,11 +18,11 @@ set(CMAKE_CXX_SIMULATE_VERSION "")
 
 
 
-set(CMAKE_AR "/usr/bin/ar")
+set(CMAKE_AR "/usr/bin/x86_64-w64-mingw32-ar")
 set(CMAKE_CXX_COMPILER_AR "/usr/bin/x86_64-w64-mingw32-gcc-ar")
-set(CMAKE_RANLIB "/usr/bin/ranlib")
+set(CMAKE_RANLIB "/usr/bin/x86_64-w64-mingw32-ranlib")
 set(CMAKE_CXX_COMPILER_RANLIB "/usr/bin/x86_64-w64-mingw32-gcc-ranlib")
-set(CMAKE_LINKER "/usr/bin/ld")
+set(CMAKE_LINKER "/usr/bin/x86_64-w64-mingw32-ld")
 set(CMAKE_COMPILER_IS_GNUCXX 1)
 set(CMAKE_CXX_COMPILER_LOADED 1)
 set(CMAKE_CXX_COMPILER_WORKS TRUE)

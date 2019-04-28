@@ -3,7 +3,7 @@ set(CMAKE_HOST_SYSTEM_NAME "Linux")
 set(CMAKE_HOST_SYSTEM_VERSION "4.15.0-47-generic")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")
 
-include("/home/diprotiv/Desktop/Test/noise-suppression-for-voice/toolchains/toolchain-mingw64.cmake")
+include("/home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/toolchains/toolchain-mingw64.cmake")
 
 set(CMAKE_SYSTEM "Windows")
 set(CMAKE_SYSTEM_NAME "Windows")

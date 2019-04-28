@@ -1,4 +1,4 @@
-# Install script for directory: /home/diprotiv/Desktop/Test/noise-suppression-for-voice/src/vst_plugin
+# Install script for directory: /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/src/vst_plugin
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

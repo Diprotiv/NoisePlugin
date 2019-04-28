@@ -1,2 +1,2 @@
-/usr/bin/ar qc ../../lib/libRnNoise.a  CMakeFiles/RnNoise.dir/src/celt_lpc.c.obj CMakeFiles/RnNoise.dir/src/denoise.c.obj CMakeFiles/RnNoise.dir/src/kiss_fft.c.obj CMakeFiles/RnNoise.dir/src/pitch.c.obj CMakeFiles/RnNoise.dir/src/rnn.c.obj CMakeFiles/RnNoise.dir/src/rnn_data.c.obj
-/usr/bin/ranlib ../../lib/libRnNoise.a
+/usr/bin/x86_64-w64-mingw32-ar qc ../../lib/libRnNoise.a  CMakeFiles/RnNoise.dir/src/celt_lpc.c.obj CMakeFiles/RnNoise.dir/src/denoise.c.obj CMakeFiles/RnNoise.dir/src/kiss_fft.c.obj CMakeFiles/RnNoise.dir/src/pitch.c.obj CMakeFiles/RnNoise.dir/src/rnn.c.obj CMakeFiles/RnNoise.dir/src/rnn_data.c.obj
+/usr/bin/x86_64-w64-mingw32-ranlib ../../lib/libRnNoise.a

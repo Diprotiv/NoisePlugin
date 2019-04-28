@@ -48,10 +48,10 @@ RM = /home/linuxbrew/.linuxbrew/Cellar/cmake/3.13.4/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/diprotiv/Desktop/Test/noise-suppression-for-voice
+CMAKE_SOURCE_DIR = /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64
+CMAKE_BINARY_DIR = /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64 && $(CMAKE_COMMAND) -E cmake_progress_start /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/CMakeFiles /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/src/rnnoise/CMakeFiles/progress.marks
-	cd /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f CMakeFiles/Makefile2 src/rnnoise/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/CMakeFiles 0
+	cd /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64 && $(CMAKE_COMMAND) -E cmake_progress_start /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/CMakeFiles /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/src/rnnoise/CMakeFiles/progress.marks
+	cd /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f CMakeFiles/Makefile2 src/rnnoise/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f CMakeFiles/Makefile2 src/rnnoise/clean
+	cd /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f CMakeFiles/Makefile2 src/rnnoise/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f CMakeFiles/Makefile2 src/rnnoise/preinstall
+	cd /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f CMakeFiles/Makefile2 src/rnnoise/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f CMakeFiles/Makefile2 src/rnnoise/preinstall
+	cd /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f CMakeFiles/Makefile2 src/rnnoise/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/rnnoise/CMakeFiles/RnNoise.dir/rule:
-	cd /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f CMakeFiles/Makefile2 src/rnnoise/CMakeFiles/RnNoise.dir/rule
+	cd /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f CMakeFiles/Makefile2 src/rnnoise/CMakeFiles/RnNoise.dir/rule
 .PHONY : src/rnnoise/CMakeFiles/RnNoise.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ RnNoise: src/rnnoise/CMakeFiles/RnNoise.dir/rule
 
 # fast build rule for target.
 RnNoise/fast:
-	cd /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f src/rnnoise/CMakeFiles/RnNoise.dir/build.make src/rnnoise/CMakeFiles/RnNoise.dir/build
+	cd /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f src/rnnoise/CMakeFiles/RnNoise.dir/build.make src/rnnoise/CMakeFiles/RnNoise.dir/build
 .PHONY : RnNoise/fast
 
 src/celt_lpc.obj: src/celt_lpc.c.obj
@@ -177,7 +177,7 @@ src/celt_lpc.obj: src/celt_lpc.c.obj
 
 # target to build an object file
 src/celt_lpc.c.obj:
-	cd /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f src/rnnoise/CMakeFiles/RnNoise.dir/build.make src/rnnoise/CMakeFiles/RnNoise.dir/src/celt_lpc.c.obj
+	cd /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f src/rnnoise/CMakeFiles/RnNoise.dir/build.make src/rnnoise/CMakeFiles/RnNoise.dir/src/celt_lpc.c.obj
 .PHONY : src/celt_lpc.c.obj
 
 src/celt_lpc.i: src/celt_lpc.c.i
@@ -186,7 +186,7 @@ src/celt_lpc.i: src/celt_lpc.c.i
 
 # target to preprocess a source file
 src/celt_lpc.c.i:
-	cd /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f src/rnnoise/CMakeFiles/RnNoise.dir/build.make src/rnnoise/CMakeFiles/RnNoise.dir/src/celt_lpc.c.i
+	cd /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f src/rnnoise/CMakeFiles/RnNoise.dir/build.make src/rnnoise/CMakeFiles/RnNoise.dir/src/celt_lpc.c.i
 .PHONY : src/celt_lpc.c.i
 
 src/celt_lpc.s: src/celt_lpc.c.s
@@ -195,7 +195,7 @@ src/celt_lpc.s: src/celt_lpc.c.s
 
 # target to generate assembly for a file
 src/celt_lpc.c.s:
-	cd /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f src/rnnoise/CMakeFiles/RnNoise.dir/build.make src/rnnoise/CMakeFiles/RnNoise.dir/src/celt_lpc.c.s
+	cd /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f src/rnnoise/CMakeFiles/RnNoise.dir/build.make src/rnnoise/CMakeFiles/RnNoise.dir/src/celt_lpc.c.s
 .PHONY : src/celt_lpc.c.s
 
 src/denoise.obj: src/denoise.c.obj
@@ -204,7 +204,7 @@ src/denoise.obj: src/denoise.c.obj
 
 # target to build an object file
 src/denoise.c.obj:
-	cd /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f src/rnnoise/CMakeFiles/RnNoise.dir/build.make src/rnnoise/CMakeFiles/RnNoise.dir/src/denoise.c.obj
+	cd /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f src/rnnoise/CMakeFiles/RnNoise.dir/build.make src/rnnoise/CMakeFiles/RnNoise.dir/src/denoise.c.obj
 .PHONY : src/denoise.c.obj
 
 src/denoise.i: src/denoise.c.i
@@ -213,7 +213,7 @@ src/denoise.i: src/denoise.c.i
 
 # target to preprocess a source file
 src/denoise.c.i:
-	cd /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f src/rnnoise/CMakeFiles/RnNoise.dir/build.make src/rnnoise/CMakeFiles/RnNoise.dir/src/denoise.c.i
+	cd /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f src/rnnoise/CMakeFiles/RnNoise.dir/build.make src/rnnoise/CMakeFiles/RnNoise.dir/src/denoise.c.i
 .PHONY : src/denoise.c.i
 
 src/denoise.s: src/denoise.c.s
@@ -222,7 +222,7 @@ src/denoise.s: src/denoise.c.s
 
 # target to generate assembly for a file
 src/denoise.c.s:
-	cd /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f src/rnnoise/CMakeFiles/RnNoise.dir/build.make src/rnnoise/CMakeFiles/RnNoise.dir/src/denoise.c.s
+	cd /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f src/rnnoise/CMakeFiles/RnNoise.dir/build.make src/rnnoise/CMakeFiles/RnNoise.dir/src/denoise.c.s
 .PHONY : src/denoise.c.s
 
 src/kiss_fft.obj: src/kiss_fft.c.obj
@@ -231,7 +231,7 @@ src/kiss_fft.obj: src/kiss_fft.c.obj
 
 # target to build an object file
 src/kiss_fft.c.obj:
-	cd /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f src/rnnoise/CMakeFiles/RnNoise.dir/build.make src/rnnoise/CMakeFiles/RnNoise.dir/src/kiss_fft.c.obj
+	cd /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f src/rnnoise/CMakeFiles/RnNoise.dir/build.make src/rnnoise/CMakeFiles/RnNoise.dir/src/kiss_fft.c.obj
 .PHONY : src/kiss_fft.c.obj
 
 src/kiss_fft.i: src/kiss_fft.c.i
@@ -240,7 +240,7 @@ src/kiss_fft.i: src/kiss_fft.c.i
 
 # target to preprocess a source file
 src/kiss_fft.c.i:
-	cd /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f src/rnnoise/CMakeFiles/RnNoise.dir/build.make src/rnnoise/CMakeFiles/RnNoise.dir/src/kiss_fft.c.i
+	cd /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f src/rnnoise/CMakeFiles/RnNoise.dir/build.make src/rnnoise/CMakeFiles/RnNoise.dir/src/kiss_fft.c.i
 .PHONY : src/kiss_fft.c.i
 
 src/kiss_fft.s: src/kiss_fft.c.s
@@ -249,7 +249,7 @@ src/kiss_fft.s: src/kiss_fft.c.s
 
 # target to generate assembly for a file
 src/kiss_fft.c.s:
-	cd /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f src/rnnoise/CMakeFiles/RnNoise.dir/build.make src/rnnoise/CMakeFiles/RnNoise.dir/src/kiss_fft.c.s
+	cd /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f src/rnnoise/CMakeFiles/RnNoise.dir/build.make src/rnnoise/CMakeFiles/RnNoise.dir/src/kiss_fft.c.s
 .PHONY : src/kiss_fft.c.s
 
 src/pitch.obj: src/pitch.c.obj
@@ -258,7 +258,7 @@ src/pitch.obj: src/pitch.c.obj
 
 # target to build an object file
 src/pitch.c.obj:
-	cd /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f src/rnnoise/CMakeFiles/RnNoise.dir/build.make src/rnnoise/CMakeFiles/RnNoise.dir/src/pitch.c.obj
+	cd /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f src/rnnoise/CMakeFiles/RnNoise.dir/build.make src/rnnoise/CMakeFiles/RnNoise.dir/src/pitch.c.obj
 .PHONY : src/pitch.c.obj
 
 src/pitch.i: src/pitch.c.i
@@ -267,7 +267,7 @@ src/pitch.i: src/pitch.c.i
 
 # target to preprocess a source file
 src/pitch.c.i:
-	cd /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f src/rnnoise/CMakeFiles/RnNoise.dir/build.make src/rnnoise/CMakeFiles/RnNoise.dir/src/pitch.c.i
+	cd /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f src/rnnoise/CMakeFiles/RnNoise.dir/build.make src/rnnoise/CMakeFiles/RnNoise.dir/src/pitch.c.i
 .PHONY : src/pitch.c.i
 
 src/pitch.s: src/pitch.c.s
@@ -276,7 +276,7 @@ src/pitch.s: src/pitch.c.s
 
 # target to generate assembly for a file
 src/pitch.c.s:
-	cd /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f src/rnnoise/CMakeFiles/RnNoise.dir/build.make src/rnnoise/CMakeFiles/RnNoise.dir/src/pitch.c.s
+	cd /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f src/rnnoise/CMakeFiles/RnNoise.dir/build.make src/rnnoise/CMakeFiles/RnNoise.dir/src/pitch.c.s
 .PHONY : src/pitch.c.s
 
 src/rnn.obj: src/rnn.c.obj
@@ -285,7 +285,7 @@ src/rnn.obj: src/rnn.c.obj
 
 # target to build an object file
 src/rnn.c.obj:
-	cd /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f src/rnnoise/CMakeFiles/RnNoise.dir/build.make src/rnnoise/CMakeFiles/RnNoise.dir/src/rnn.c.obj
+	cd /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f src/rnnoise/CMakeFiles/RnNoise.dir/build.make src/rnnoise/CMakeFiles/RnNoise.dir/src/rnn.c.obj
 .PHONY : src/rnn.c.obj
 
 src/rnn.i: src/rnn.c.i
@@ -294,7 +294,7 @@ src/rnn.i: src/rnn.c.i
 
 # target to preprocess a source file
 src/rnn.c.i:
-	cd /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f src/rnnoise/CMakeFiles/RnNoise.dir/build.make src/rnnoise/CMakeFiles/RnNoise.dir/src/rnn.c.i
+	cd /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f src/rnnoise/CMakeFiles/RnNoise.dir/build.make src/rnnoise/CMakeFiles/RnNoise.dir/src/rnn.c.i
 .PHONY : src/rnn.c.i
 
 src/rnn.s: src/rnn.c.s
@@ -303,7 +303,7 @@ src/rnn.s: src/rnn.c.s
 
 # target to generate assembly for a file
 src/rnn.c.s:
-	cd /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f src/rnnoise/CMakeFiles/RnNoise.dir/build.make src/rnnoise/CMakeFiles/RnNoise.dir/src/rnn.c.s
+	cd /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f src/rnnoise/CMakeFiles/RnNoise.dir/build.make src/rnnoise/CMakeFiles/RnNoise.dir/src/rnn.c.s
 .PHONY : src/rnn.c.s
 
 src/rnn_data.obj: src/rnn_data.c.obj
@@ -312,7 +312,7 @@ src/rnn_data.obj: src/rnn_data.c.obj
 
 # target to build an object file
 src/rnn_data.c.obj:
-	cd /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f src/rnnoise/CMakeFiles/RnNoise.dir/build.make src/rnnoise/CMakeFiles/RnNoise.dir/src/rnn_data.c.obj
+	cd /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f src/rnnoise/CMakeFiles/RnNoise.dir/build.make src/rnnoise/CMakeFiles/RnNoise.dir/src/rnn_data.c.obj
 .PHONY : src/rnn_data.c.obj
 
 src/rnn_data.i: src/rnn_data.c.i
@@ -321,7 +321,7 @@ src/rnn_data.i: src/rnn_data.c.i
 
 # target to preprocess a source file
 src/rnn_data.c.i:
-	cd /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f src/rnnoise/CMakeFiles/RnNoise.dir/build.make src/rnnoise/CMakeFiles/RnNoise.dir/src/rnn_data.c.i
+	cd /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f src/rnnoise/CMakeFiles/RnNoise.dir/build.make src/rnnoise/CMakeFiles/RnNoise.dir/src/rnn_data.c.i
 .PHONY : src/rnn_data.c.i
 
 src/rnn_data.s: src/rnn_data.c.s
@@ -330,7 +330,7 @@ src/rnn_data.s: src/rnn_data.c.s
 
 # target to generate assembly for a file
 src/rnn_data.c.s:
-	cd /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f src/rnnoise/CMakeFiles/RnNoise.dir/build.make src/rnnoise/CMakeFiles/RnNoise.dir/src/rnn_data.c.s
+	cd /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f src/rnnoise/CMakeFiles/RnNoise.dir/build.make src/rnnoise/CMakeFiles/RnNoise.dir/src/rnn_data.c.s
 .PHONY : src/rnn_data.c.s
 
 # Help Target
@@ -375,6 +375,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/diprotiv/Desktop/Test/noise-suppression-for-voice/src/rnnoise/src/celt_lpc.c" "/home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/src/rnnoise/CMakeFiles/RnNoise.dir/src/celt_lpc.c.obj"
-  "/home/diprotiv/Desktop/Test/noise-suppression-for-voice/src/rnnoise/src/denoise.c" "/home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/src/rnnoise/CMakeFiles/RnNoise.dir/src/denoise.c.obj"
-  "/home/diprotiv/Desktop/Test/noise-suppression-for-voice/src/rnnoise/src/kiss_fft.c" "/home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/src/rnnoise/CMakeFiles/RnNoise.dir/src/kiss_fft.c.obj"
-  "/home/diprotiv/Desktop/Test/noise-suppression-for-voice/src/rnnoise/src/pitch.c" "/home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/src/rnnoise/CMakeFiles/RnNoise.dir/src/pitch.c.obj"
-  "/home/diprotiv/Desktop/Test/noise-suppression-for-voice/src/rnnoise/src/rnn.c" "/home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/src/rnnoise/CMakeFiles/RnNoise.dir/src/rnn.c.obj"
-  "/home/diprotiv/Desktop/Test/noise-suppression-for-voice/src/rnnoise/src/rnn_data.c" "/home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/src/rnnoise/CMakeFiles/RnNoise.dir/src/rnn_data.c.obj"
+  "/home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/src/rnnoise/src/celt_lpc.c" "/home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/src/rnnoise/CMakeFiles/RnNoise.dir/src/celt_lpc.c.obj"
+  "/home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/src/rnnoise/src/denoise.c" "/home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/src/rnnoise/CMakeFiles/RnNoise.dir/src/denoise.c.obj"
+  "/home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/src/rnnoise/src/kiss_fft.c" "/home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/src/rnnoise/CMakeFiles/RnNoise.dir/src/kiss_fft.c.obj"
+  "/home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/src/rnnoise/src/pitch.c" "/home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/src/rnnoise/CMakeFiles/RnNoise.dir/src/pitch.c.obj"
+  "/home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/src/rnnoise/src/rnn.c" "/home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/src/rnnoise/CMakeFiles/RnNoise.dir/src/rnn.c.obj"
+  "/home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/src/rnnoise/src/rnn_data.c" "/home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/src/rnnoise/CMakeFiles/RnNoise.dir/src/rnn_data.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

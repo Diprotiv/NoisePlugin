@@ -48,10 +48,10 @@ RM = /home/linuxbrew/.linuxbrew/Cellar/cmake/3.13.4/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/diprotiv/Desktop/Test/noise-suppression-for-voice
+CMAKE_SOURCE_DIR = /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64
+CMAKE_BINARY_DIR = /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64 && $(CMAKE_COMMAND) -E cmake_progress_start /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/CMakeFiles /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/src/ladspa_plugin/CMakeFiles/progress.marks
-	cd /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f CMakeFiles/Makefile2 src/ladspa_plugin/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/CMakeFiles 0
+	cd /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64 && $(CMAKE_COMMAND) -E cmake_progress_start /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/CMakeFiles /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/src/ladspa_plugin/CMakeFiles/progress.marks
+	cd /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f CMakeFiles/Makefile2 src/ladspa_plugin/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f CMakeFiles/Makefile2 src/ladspa_plugin/clean
+	cd /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f CMakeFiles/Makefile2 src/ladspa_plugin/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f CMakeFiles/Makefile2 src/ladspa_plugin/preinstall
+	cd /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f CMakeFiles/Makefile2 src/ladspa_plugin/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f CMakeFiles/Makefile2 src/ladspa_plugin/preinstall
+	cd /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f CMakeFiles/Makefile2 src/ladspa_plugin/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/ladspa_plugin/CMakeFiles/rnnoise_ladspa.dir/rule:
-	cd /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f CMakeFiles/Makefile2 src/ladspa_plugin/CMakeFiles/rnnoise_ladspa.dir/rule
+	cd /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f CMakeFiles/Makefile2 src/ladspa_plugin/CMakeFiles/rnnoise_ladspa.dir/rule
 .PHONY : src/ladspa_plugin/CMakeFiles/rnnoise_ladspa.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ rnnoise_ladspa: src/ladspa_plugin/CMakeFiles/rnnoise_ladspa.dir/rule
 
 # fast build rule for target.
 rnnoise_ladspa/fast:
-	cd /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f src/ladspa_plugin/CMakeFiles/rnnoise_ladspa.dir/build.make src/ladspa_plugin/CMakeFiles/rnnoise_ladspa.dir/build
+	cd /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f src/ladspa_plugin/CMakeFiles/rnnoise_ladspa.dir/build.make src/ladspa_plugin/CMakeFiles/rnnoise_ladspa.dir/build
 .PHONY : rnnoise_ladspa/fast
 
 RnNoiseLadspaPlugin.obj: RnNoiseLadspaPlugin.cpp.obj
@@ -177,7 +177,7 @@ RnNoiseLadspaPlugin.obj: RnNoiseLadspaPlugin.cpp.obj
 
 # target to build an object file
 RnNoiseLadspaPlugin.cpp.obj:
-	cd /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f src/ladspa_plugin/CMakeFiles/rnnoise_ladspa.dir/build.make src/ladspa_plugin/CMakeFiles/rnnoise_ladspa.dir/RnNoiseLadspaPlugin.cpp.obj
+	cd /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f src/ladspa_plugin/CMakeFiles/rnnoise_ladspa.dir/build.make src/ladspa_plugin/CMakeFiles/rnnoise_ladspa.dir/RnNoiseLadspaPlugin.cpp.obj
 .PHONY : RnNoiseLadspaPlugin.cpp.obj
 
 RnNoiseLadspaPlugin.i: RnNoiseLadspaPlugin.cpp.i
@@ -186,7 +186,7 @@ RnNoiseLadspaPlugin.i: RnNoiseLadspaPlugin.cpp.i
 
 # target to preprocess a source file
 RnNoiseLadspaPlugin.cpp.i:
-	cd /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f src/ladspa_plugin/CMakeFiles/rnnoise_ladspa.dir/build.make src/ladspa_plugin/CMakeFiles/rnnoise_ladspa.dir/RnNoiseLadspaPlugin.cpp.i
+	cd /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f src/ladspa_plugin/CMakeFiles/rnnoise_ladspa.dir/build.make src/ladspa_plugin/CMakeFiles/rnnoise_ladspa.dir/RnNoiseLadspaPlugin.cpp.i
 .PHONY : RnNoiseLadspaPlugin.cpp.i
 
 RnNoiseLadspaPlugin.s: RnNoiseLadspaPlugin.cpp.s
@@ -195,7 +195,7 @@ RnNoiseLadspaPlugin.s: RnNoiseLadspaPlugin.cpp.s
 
 # target to generate assembly for a file
 RnNoiseLadspaPlugin.cpp.s:
-	cd /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f src/ladspa_plugin/CMakeFiles/rnnoise_ladspa.dir/build.make src/ladspa_plugin/CMakeFiles/rnnoise_ladspa.dir/RnNoiseLadspaPlugin.cpp.s
+	cd /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f src/ladspa_plugin/CMakeFiles/rnnoise_ladspa.dir/build.make src/ladspa_plugin/CMakeFiles/rnnoise_ladspa.dir/RnNoiseLadspaPlugin.cpp.s
 .PHONY : RnNoiseLadspaPlugin.cpp.s
 
 # Help Target
@@ -225,6 +225,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

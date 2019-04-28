@@ -4,4 +4,4 @@
 src/common/CMakeFiles/RnNoisePluginCommon.dir/src/RnNoiseCommonPlugin.cpp.obj
  ../src/common/include/common/RnNoiseCommonPlugin.h
  ../src/rnnoise/include/rnnoise/rnnoise.h
- /home/diprotiv/Desktop/Test/noise-suppression-for-voice/src/common/src/RnNoiseCommonPlugin.cpp
+ /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/src/common/src/RnNoiseCommonPlugin.cpp

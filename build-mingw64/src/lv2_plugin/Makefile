@@ -48,10 +48,10 @@ RM = /home/linuxbrew/.linuxbrew/Cellar/cmake/3.13.4/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/diprotiv/Desktop/Test/noise-suppression-for-voice
+CMAKE_SOURCE_DIR = /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64
+CMAKE_BINARY_DIR = /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64 && $(CMAKE_COMMAND) -E cmake_progress_start /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/CMakeFiles /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/src/lv2_plugin/CMakeFiles/progress.marks
-	cd /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f CMakeFiles/Makefile2 src/lv2_plugin/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/CMakeFiles 0
+	cd /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64 && $(CMAKE_COMMAND) -E cmake_progress_start /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/CMakeFiles /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/src/lv2_plugin/CMakeFiles/progress.marks
+	cd /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f CMakeFiles/Makefile2 src/lv2_plugin/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f CMakeFiles/Makefile2 src/lv2_plugin/clean
+	cd /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f CMakeFiles/Makefile2 src/lv2_plugin/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f CMakeFiles/Makefile2 src/lv2_plugin/preinstall
+	cd /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f CMakeFiles/Makefile2 src/lv2_plugin/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f CMakeFiles/Makefile2 src/lv2_plugin/preinstall
+	cd /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f CMakeFiles/Makefile2 src/lv2_plugin/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/lv2_plugin/CMakeFiles/rnnoise_lv2.dir/rule:
-	cd /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f CMakeFiles/Makefile2 src/lv2_plugin/CMakeFiles/rnnoise_lv2.dir/rule
+	cd /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f CMakeFiles/Makefile2 src/lv2_plugin/CMakeFiles/rnnoise_lv2.dir/rule
 .PHONY : src/lv2_plugin/CMakeFiles/rnnoise_lv2.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ rnnoise_lv2: src/lv2_plugin/CMakeFiles/rnnoise_lv2.dir/rule
 
 # fast build rule for target.
 rnnoise_lv2/fast:
-	cd /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f src/lv2_plugin/CMakeFiles/rnnoise_lv2.dir/build.make src/lv2_plugin/CMakeFiles/rnnoise_lv2.dir/build
+	cd /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f src/lv2_plugin/CMakeFiles/rnnoise_lv2.dir/build.make src/lv2_plugin/CMakeFiles/rnnoise_lv2.dir/build
 .PHONY : rnnoise_lv2/fast
 
 RnNoiseLv2Lib.obj: RnNoiseLv2Lib.cpp.obj
@@ -177,7 +177,7 @@ RnNoiseLv2Lib.obj: RnNoiseLv2Lib.cpp.obj
 
 # target to build an object file
 RnNoiseLv2Lib.cpp.obj:
-	cd /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f src/lv2_plugin/CMakeFiles/rnnoise_lv2.dir/build.make src/lv2_plugin/CMakeFiles/rnnoise_lv2.dir/RnNoiseLv2Lib.cpp.obj
+	cd /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f src/lv2_plugin/CMakeFiles/rnnoise_lv2.dir/build.make src/lv2_plugin/CMakeFiles/rnnoise_lv2.dir/RnNoiseLv2Lib.cpp.obj
 .PHONY : RnNoiseLv2Lib.cpp.obj
 
 RnNoiseLv2Lib.i: RnNoiseLv2Lib.cpp.i
@@ -186,7 +186,7 @@ RnNoiseLv2Lib.i: RnNoiseLv2Lib.cpp.i
 
 # target to preprocess a source file
 RnNoiseLv2Lib.cpp.i:
-	cd /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f src/lv2_plugin/CMakeFiles/rnnoise_lv2.dir/build.make src/lv2_plugin/CMakeFiles/rnnoise_lv2.dir/RnNoiseLv2Lib.cpp.i
+	cd /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f src/lv2_plugin/CMakeFiles/rnnoise_lv2.dir/build.make src/lv2_plugin/CMakeFiles/rnnoise_lv2.dir/RnNoiseLv2Lib.cpp.i
 .PHONY : RnNoiseLv2Lib.cpp.i
 
 RnNoiseLv2Lib.s: RnNoiseLv2Lib.cpp.s
@@ -195,7 +195,7 @@ RnNoiseLv2Lib.s: RnNoiseLv2Lib.cpp.s
 
 # target to generate assembly for a file
 RnNoiseLv2Lib.cpp.s:
-	cd /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f src/lv2_plugin/CMakeFiles/rnnoise_lv2.dir/build.make src/lv2_plugin/CMakeFiles/rnnoise_lv2.dir/RnNoiseLv2Lib.cpp.s
+	cd /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f src/lv2_plugin/CMakeFiles/rnnoise_lv2.dir/build.make src/lv2_plugin/CMakeFiles/rnnoise_lv2.dir/RnNoiseLv2Lib.cpp.s
 .PHONY : RnNoiseLv2Lib.cpp.s
 
 RnNoiseLv2Plugin.obj: RnNoiseLv2Plugin.cpp.obj
@@ -204,7 +204,7 @@ RnNoiseLv2Plugin.obj: RnNoiseLv2Plugin.cpp.obj
 
 # target to build an object file
 RnNoiseLv2Plugin.cpp.obj:
-	cd /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f src/lv2_plugin/CMakeFiles/rnnoise_lv2.dir/build.make src/lv2_plugin/CMakeFiles/rnnoise_lv2.dir/RnNoiseLv2Plugin.cpp.obj
+	cd /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f src/lv2_plugin/CMakeFiles/rnnoise_lv2.dir/build.make src/lv2_plugin/CMakeFiles/rnnoise_lv2.dir/RnNoiseLv2Plugin.cpp.obj
 .PHONY : RnNoiseLv2Plugin.cpp.obj
 
 RnNoiseLv2Plugin.i: RnNoiseLv2Plugin.cpp.i
@@ -213,7 +213,7 @@ RnNoiseLv2Plugin.i: RnNoiseLv2Plugin.cpp.i
 
 # target to preprocess a source file
 RnNoiseLv2Plugin.cpp.i:
-	cd /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f src/lv2_plugin/CMakeFiles/rnnoise_lv2.dir/build.make src/lv2_plugin/CMakeFiles/rnnoise_lv2.dir/RnNoiseLv2Plugin.cpp.i
+	cd /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f src/lv2_plugin/CMakeFiles/rnnoise_lv2.dir/build.make src/lv2_plugin/CMakeFiles/rnnoise_lv2.dir/RnNoiseLv2Plugin.cpp.i
 .PHONY : RnNoiseLv2Plugin.cpp.i
 
 RnNoiseLv2Plugin.s: RnNoiseLv2Plugin.cpp.s
@@ -222,7 +222,7 @@ RnNoiseLv2Plugin.s: RnNoiseLv2Plugin.cpp.s
 
 # target to generate assembly for a file
 RnNoiseLv2Plugin.cpp.s:
-	cd /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f src/lv2_plugin/CMakeFiles/rnnoise_lv2.dir/build.make src/lv2_plugin/CMakeFiles/rnnoise_lv2.dir/RnNoiseLv2Plugin.cpp.s
+	cd /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64 && $(MAKE) -f src/lv2_plugin/CMakeFiles/rnnoise_lv2.dir/build.make src/lv2_plugin/CMakeFiles/rnnoise_lv2.dir/RnNoiseLv2Plugin.cpp.s
 .PHONY : RnNoiseLv2Plugin.cpp.s
 
 # Help Target
@@ -255,6 +255,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

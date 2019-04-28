@@ -11,7 +11,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
 
-The C compiler identification is GNU, found in "/home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/CMakeFiles/3.13.4/CompilerIdC/a.exe"
+The C compiler identification is GNU, found in "/home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/CMakeFiles/3.13.4/CompilerIdC/a.exe"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/x86_64-w64-mingw32-g++ 
@@ -24,37 +24,37 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
 
-The CXX compiler identification is GNU, found in "/home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/CMakeFiles/3.13.4/CompilerIdCXX/a.exe"
+The CXX compiler identification is GNU, found in "/home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/CMakeFiles/3.13.4/CompilerIdCXX/a.exe"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp
+Change Dir: /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d0c56/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d0c56.dir/build.make CMakeFiles/cmTC_d0c56.dir/build
-make[1]: Entering directory '/home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d0c56.dir/testCCompiler.c.obj
-/usr/bin/x86_64-w64-mingw32-gcc    -o CMakeFiles/cmTC_d0c56.dir/testCCompiler.c.obj   -c /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_d0c56.exe
-/home/linuxbrew/.linuxbrew/Cellar/cmake/3.13.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0c56.dir/link.txt --verbose=1
-/home/linuxbrew/.linuxbrew/Cellar/cmake/3.13.4/bin/cmake -E remove -f CMakeFiles/cmTC_d0c56.dir/objects.a
-/usr/bin/ar cr CMakeFiles/cmTC_d0c56.dir/objects.a @CMakeFiles/cmTC_d0c56.dir/objects1.rsp
-/usr/bin/x86_64-w64-mingw32-gcc      -Wl,--whole-archive CMakeFiles/cmTC_d0c56.dir/objects.a -Wl,--no-whole-archive  -o cmTC_d0c56.exe -Wl,--out-implib,libcmTC_d0c56.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_d0c56.dir/linklibs.rsp
-make[1]: Leaving directory '/home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_8185b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8185b.dir/build.make CMakeFiles/cmTC_8185b.dir/build
+make[1]: Entering directory '/home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8185b.dir/testCCompiler.c.obj
+/usr/bin/x86_64-w64-mingw32-gcc    -o CMakeFiles/cmTC_8185b.dir/testCCompiler.c.obj   -c /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_8185b.exe
+/home/linuxbrew/.linuxbrew/Cellar/cmake/3.13.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8185b.dir/link.txt --verbose=1
+/home/linuxbrew/.linuxbrew/Cellar/cmake/3.13.4/bin/cmake -E remove -f CMakeFiles/cmTC_8185b.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar cr CMakeFiles/cmTC_8185b.dir/objects.a @CMakeFiles/cmTC_8185b.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-gcc      -Wl,--whole-archive CMakeFiles/cmTC_8185b.dir/objects.a -Wl,--no-whole-archive  -o cmTC_8185b.exe -Wl,--out-implib,libcmTC_8185b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_8185b.dir/linklibs.rsp
+make[1]: Leaving directory '/home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp
+Change Dir: /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9b386/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9b386.dir/build.make CMakeFiles/cmTC_9b386.dir/build
-make[1]: Entering directory '/home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9b386.dir/CMakeCCompilerABI.c.obj
-/usr/bin/x86_64-w64-mingw32-gcc    -o CMakeFiles/cmTC_9b386.dir/CMakeCCompilerABI.c.obj   -c /home/linuxbrew/.linuxbrew/Cellar/cmake/3.13.4/share/cmake/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_9b386.exe
-/home/linuxbrew/.linuxbrew/Cellar/cmake/3.13.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9b386.dir/link.txt --verbose=1
-/home/linuxbrew/.linuxbrew/Cellar/cmake/3.13.4/bin/cmake -E remove -f CMakeFiles/cmTC_9b386.dir/objects.a
-/usr/bin/ar cr CMakeFiles/cmTC_9b386.dir/objects.a @CMakeFiles/cmTC_9b386.dir/objects1.rsp
-/usr/bin/x86_64-w64-mingw32-gcc     -v -Wl,--whole-archive CMakeFiles/cmTC_9b386.dir/objects.a -Wl,--no-whole-archive  -o cmTC_9b386.exe -Wl,--out-implib,libcmTC_9b386.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Run Build Command:"/usr/bin/make" "cmTC_f28f1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f28f1.dir/build.make CMakeFiles/cmTC_f28f1.dir/build
+make[1]: Entering directory '/home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f28f1.dir/CMakeCCompilerABI.c.obj
+/usr/bin/x86_64-w64-mingw32-gcc    -o CMakeFiles/cmTC_f28f1.dir/CMakeCCompilerABI.c.obj   -c /home/linuxbrew/.linuxbrew/Cellar/cmake/3.13.4/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_f28f1.exe
+/home/linuxbrew/.linuxbrew/Cellar/cmake/3.13.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f28f1.dir/link.txt --verbose=1
+/home/linuxbrew/.linuxbrew/Cellar/cmake/3.13.4/bin/cmake -E remove -f CMakeFiles/cmTC_f28f1.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar cr CMakeFiles/cmTC_f28f1.dir/objects.a @CMakeFiles/cmTC_f28f1.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-gcc     -v -Wl,--whole-archive CMakeFiles/cmTC_f28f1.dir/objects.a -Wl,--no-whole-archive  -o cmTC_f28f1.exe -Wl,--out-implib,libcmTC_f28f1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/x86_64-w64-mingw32-gcc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/lto-wrapper
@@ -64,26 +64,26 @@ Thread model: win32
 gcc version 7.3-win32 20180312 (GCC) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/:/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/:/usr/lib/gcc/x86_64-w64-mingw32/:/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/:/usr/lib/gcc/x86_64-w64-mingw32/:/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/../../../../x86_64-w64-mingw32/bin/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/:/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/../../../../x86_64-w64-mingw32/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9b386.exe' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/collect2 -m i386pep -Bdynamic -o cmTC_9b386.exe /usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o /usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/crtbegin.o -L/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32 -L/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/../../../../x86_64-w64-mingw32/lib --whole-archive CMakeFiles/cmTC_9b386.dir/objects.a --no-whole-archive --out-implib libcmTC_9b386.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt /usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/crtend.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9b386.exe' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f28f1.exe' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/collect2 -m i386pep -Bdynamic -o cmTC_f28f1.exe /usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o /usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/crtbegin.o -L/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32 -L/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/../../../../x86_64-w64-mingw32/lib --whole-archive CMakeFiles/cmTC_f28f1.dir/objects.a --no-whole-archive --out-implib libcmTC_f28f1.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt /usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f28f1.exe' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
-  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp]
+  link line regex: [^( *|.*[/\])(x86_64-w64-mingw32-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_9b386/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_9b386.dir/build.make CMakeFiles/cmTC_9b386.dir/build]
-  ignore line: [make[1]: Entering directory '/home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_9b386.dir/CMakeCCompilerABI.c.obj]
-  ignore line: [/usr/bin/x86_64-w64-mingw32-gcc    -o CMakeFiles/cmTC_9b386.dir/CMakeCCompilerABI.c.obj   -c /home/linuxbrew/.linuxbrew/Cellar/cmake/3.13.4/share/cmake/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_9b386.exe]
-  ignore line: [/home/linuxbrew/.linuxbrew/Cellar/cmake/3.13.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9b386.dir/link.txt --verbose=1]
-  ignore line: [/home/linuxbrew/.linuxbrew/Cellar/cmake/3.13.4/bin/cmake -E remove -f CMakeFiles/cmTC_9b386.dir/objects.a]
-  ignore line: [/usr/bin/ar cr CMakeFiles/cmTC_9b386.dir/objects.a @CMakeFiles/cmTC_9b386.dir/objects1.rsp]
-  ignore line: [/usr/bin/x86_64-w64-mingw32-gcc     -v -Wl,--whole-archive CMakeFiles/cmTC_9b386.dir/objects.a -Wl,--no-whole-archive  -o cmTC_9b386.exe -Wl,--out-implib,libcmTC_9b386.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_f28f1/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_f28f1.dir/build.make CMakeFiles/cmTC_f28f1.dir/build]
+  ignore line: [make[1]: Entering directory '/home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_f28f1.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/usr/bin/x86_64-w64-mingw32-gcc    -o CMakeFiles/cmTC_f28f1.dir/CMakeCCompilerABI.c.obj   -c /home/linuxbrew/.linuxbrew/Cellar/cmake/3.13.4/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_f28f1.exe]
+  ignore line: [/home/linuxbrew/.linuxbrew/Cellar/cmake/3.13.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f28f1.dir/link.txt --verbose=1]
+  ignore line: [/home/linuxbrew/.linuxbrew/Cellar/cmake/3.13.4/bin/cmake -E remove -f CMakeFiles/cmTC_f28f1.dir/objects.a]
+  ignore line: [/usr/bin/x86_64-w64-mingw32-ar cr CMakeFiles/cmTC_f28f1.dir/objects.a @CMakeFiles/cmTC_f28f1.dir/objects1.rsp]
+  ignore line: [/usr/bin/x86_64-w64-mingw32-gcc     -v -Wl,--whole-archive CMakeFiles/cmTC_f28f1.dir/objects.a -Wl,--no-whole-archive  -o cmTC_f28f1.exe -Wl,--out-implib,libcmTC_f28f1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/x86_64-w64-mingw32-gcc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/lto-wrapper]
@@ -93,23 +93,23 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 7.3-win32 20180312 (GCC) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/:/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/:/usr/lib/gcc/x86_64-w64-mingw32/:/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/:/usr/lib/gcc/x86_64-w64-mingw32/:/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/../../../../x86_64-w64-mingw32/bin/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/:/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/../../../../x86_64-w64-mingw32/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9b386.exe' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/collect2 -m i386pep -Bdynamic -o cmTC_9b386.exe /usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o /usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/crtbegin.o -L/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32 -L/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/../../../../x86_64-w64-mingw32/lib --whole-archive CMakeFiles/cmTC_9b386.dir/objects.a --no-whole-archive --out-implib libcmTC_9b386.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt /usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/crtend.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f28f1.exe' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/collect2 -m i386pep -Bdynamic -o cmTC_f28f1.exe /usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o /usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/crtbegin.o -L/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32 -L/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/../../../../x86_64-w64-mingw32/lib --whole-archive CMakeFiles/cmTC_f28f1.dir/objects.a --no-whole-archive --out-implib libcmTC_f28f1.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt /usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/crtend.o]
     arg [/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/collect2] ==> ignore
     arg [-m] ==> ignore
     arg [i386pep] ==> ignore
     arg [-Bdynamic] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_9b386.exe] ==> ignore
+    arg [cmTC_f28f1.exe] ==> ignore
     arg [/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/crtbegin.o] ==> ignore
     arg [-L/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32] ==> dir [/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32]
     arg [-L/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/../../../../x86_64-w64-mingw32/lib] ==> dir [/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/../../../../x86_64-w64-mingw32/lib]
     arg [--whole-archive] ==> ignore
-    arg [CMakeFiles/cmTC_9b386.dir/objects.a] ==> ignore
+    arg [CMakeFiles/cmTC_f28f1.dir/objects.a] ==> ignore
     arg [--no-whole-archive] ==> ignore
     arg [--out-implib] ==> ignore
-    arg [libcmTC_9b386.dll.a] ==> ignore
+    arg [libcmTC_f28f1.dll.a] ==> ignore
     arg [--major-image-version] ==> ignore
     arg [0] ==> ignore
     arg [--minor-image-version] ==> ignore
@@ -145,19 +145,19 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp
+Change Dir: /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_41f9e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_41f9e.dir/build.make CMakeFiles/cmTC_41f9e.dir/build
-make[1]: Entering directory '/home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_41f9e.dir/feature_tests.c.obj
-/usr/bin/x86_64-w64-mingw32-gcc   -std=c11 -o CMakeFiles/cmTC_41f9e.dir/feature_tests.c.obj   -c /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/CMakeFiles/feature_tests.c
-Linking C executable cmTC_41f9e.exe
-/home/linuxbrew/.linuxbrew/Cellar/cmake/3.13.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41f9e.dir/link.txt --verbose=1
-/home/linuxbrew/.linuxbrew/Cellar/cmake/3.13.4/bin/cmake -E remove -f CMakeFiles/cmTC_41f9e.dir/objects.a
-/usr/bin/ar cr CMakeFiles/cmTC_41f9e.dir/objects.a @CMakeFiles/cmTC_41f9e.dir/objects1.rsp
-/usr/bin/x86_64-w64-mingw32-gcc      -Wl,--whole-archive CMakeFiles/cmTC_41f9e.dir/objects.a -Wl,--no-whole-archive  -o cmTC_41f9e.exe -Wl,--out-implib,libcmTC_41f9e.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_41f9e.dir/linklibs.rsp
-make[1]: Leaving directory '/home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_38733/fast"
+/usr/bin/make -f CMakeFiles/cmTC_38733.dir/build.make CMakeFiles/cmTC_38733.dir/build
+make[1]: Entering directory '/home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_38733.dir/feature_tests.c.obj
+/usr/bin/x86_64-w64-mingw32-gcc   -std=c11 -o CMakeFiles/cmTC_38733.dir/feature_tests.c.obj   -c /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/CMakeFiles/feature_tests.c
+Linking C executable cmTC_38733.exe
+/home/linuxbrew/.linuxbrew/Cellar/cmake/3.13.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38733.dir/link.txt --verbose=1
+/home/linuxbrew/.linuxbrew/Cellar/cmake/3.13.4/bin/cmake -E remove -f CMakeFiles/cmTC_38733.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar cr CMakeFiles/cmTC_38733.dir/objects.a @CMakeFiles/cmTC_38733.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-gcc      -Wl,--whole-archive CMakeFiles/cmTC_38733.dir/objects.a -Wl,--no-whole-archive  -o cmTC_38733.exe -Wl,--out-implib,libcmTC_38733.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_38733.dir/linklibs.rsp
+make[1]: Leaving directory '/home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -167,19 +167,19 @@ make[1]: Leaving directory '/home/diprotiv/Desktop/Test/noise-suppression-for-vo
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp
+Change Dir: /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_bb165/fast"
-/usr/bin/make -f CMakeFiles/cmTC_bb165.dir/build.make CMakeFiles/cmTC_bb165.dir/build
-make[1]: Entering directory '/home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_bb165.dir/feature_tests.c.obj
-/usr/bin/x86_64-w64-mingw32-gcc   -std=c99 -o CMakeFiles/cmTC_bb165.dir/feature_tests.c.obj   -c /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/CMakeFiles/feature_tests.c
-Linking C executable cmTC_bb165.exe
-/home/linuxbrew/.linuxbrew/Cellar/cmake/3.13.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb165.dir/link.txt --verbose=1
-/home/linuxbrew/.linuxbrew/Cellar/cmake/3.13.4/bin/cmake -E remove -f CMakeFiles/cmTC_bb165.dir/objects.a
-/usr/bin/ar cr CMakeFiles/cmTC_bb165.dir/objects.a @CMakeFiles/cmTC_bb165.dir/objects1.rsp
-/usr/bin/x86_64-w64-mingw32-gcc      -Wl,--whole-archive CMakeFiles/cmTC_bb165.dir/objects.a -Wl,--no-whole-archive  -o cmTC_bb165.exe -Wl,--out-implib,libcmTC_bb165.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_bb165.dir/linklibs.rsp
-make[1]: Leaving directory '/home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_231e4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_231e4.dir/build.make CMakeFiles/cmTC_231e4.dir/build
+make[1]: Entering directory '/home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_231e4.dir/feature_tests.c.obj
+/usr/bin/x86_64-w64-mingw32-gcc   -std=c99 -o CMakeFiles/cmTC_231e4.dir/feature_tests.c.obj   -c /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/CMakeFiles/feature_tests.c
+Linking C executable cmTC_231e4.exe
+/home/linuxbrew/.linuxbrew/Cellar/cmake/3.13.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_231e4.dir/link.txt --verbose=1
+/home/linuxbrew/.linuxbrew/Cellar/cmake/3.13.4/bin/cmake -E remove -f CMakeFiles/cmTC_231e4.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar cr CMakeFiles/cmTC_231e4.dir/objects.a @CMakeFiles/cmTC_231e4.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-gcc      -Wl,--whole-archive CMakeFiles/cmTC_231e4.dir/objects.a -Wl,--no-whole-archive  -o cmTC_231e4.exe -Wl,--out-implib,libcmTC_231e4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_231e4.dir/linklibs.rsp
+make[1]: Leaving directory '/home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -189,19 +189,19 @@ make[1]: Leaving directory '/home/diprotiv/Desktop/Test/noise-suppression-for-vo
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp
+Change Dir: /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_91bbe/fast"
-/usr/bin/make -f CMakeFiles/cmTC_91bbe.dir/build.make CMakeFiles/cmTC_91bbe.dir/build
-make[1]: Entering directory '/home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_91bbe.dir/feature_tests.c.obj
-/usr/bin/x86_64-w64-mingw32-gcc   -std=c90 -o CMakeFiles/cmTC_91bbe.dir/feature_tests.c.obj   -c /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/CMakeFiles/feature_tests.c
-Linking C executable cmTC_91bbe.exe
-/home/linuxbrew/.linuxbrew/Cellar/cmake/3.13.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91bbe.dir/link.txt --verbose=1
-/home/linuxbrew/.linuxbrew/Cellar/cmake/3.13.4/bin/cmake -E remove -f CMakeFiles/cmTC_91bbe.dir/objects.a
-/usr/bin/ar cr CMakeFiles/cmTC_91bbe.dir/objects.a @CMakeFiles/cmTC_91bbe.dir/objects1.rsp
-/usr/bin/x86_64-w64-mingw32-gcc      -Wl,--whole-archive CMakeFiles/cmTC_91bbe.dir/objects.a -Wl,--no-whole-archive  -o cmTC_91bbe.exe -Wl,--out-implib,libcmTC_91bbe.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_91bbe.dir/linklibs.rsp
-make[1]: Leaving directory '/home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_18974/fast"
+/usr/bin/make -f CMakeFiles/cmTC_18974.dir/build.make CMakeFiles/cmTC_18974.dir/build
+make[1]: Entering directory '/home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_18974.dir/feature_tests.c.obj
+/usr/bin/x86_64-w64-mingw32-gcc   -std=c90 -o CMakeFiles/cmTC_18974.dir/feature_tests.c.obj   -c /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/CMakeFiles/feature_tests.c
+Linking C executable cmTC_18974.exe
+/home/linuxbrew/.linuxbrew/Cellar/cmake/3.13.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18974.dir/link.txt --verbose=1
+/home/linuxbrew/.linuxbrew/Cellar/cmake/3.13.4/bin/cmake -E remove -f CMakeFiles/cmTC_18974.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar cr CMakeFiles/cmTC_18974.dir/objects.a @CMakeFiles/cmTC_18974.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-gcc      -Wl,--whole-archive CMakeFiles/cmTC_18974.dir/objects.a -Wl,--no-whole-archive  -o cmTC_18974.exe -Wl,--out-implib,libcmTC_18974.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_18974.dir/linklibs.rsp
+make[1]: Leaving directory '/home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -209,34 +209,34 @@ make[1]: Leaving directory '/home/diprotiv/Desktop/Test/noise-suppression-for-vo
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp
+Change Dir: /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0d91a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0d91a.dir/build.make CMakeFiles/cmTC_0d91a.dir/build
-make[1]: Entering directory '/home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_0d91a.dir/testCXXCompiler.cxx.obj
-/usr/bin/x86_64-w64-mingw32-g++     -o CMakeFiles/cmTC_0d91a.dir/testCXXCompiler.cxx.obj -c /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_0d91a.exe
-/home/linuxbrew/.linuxbrew/Cellar/cmake/3.13.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d91a.dir/link.txt --verbose=1
-/home/linuxbrew/.linuxbrew/Cellar/cmake/3.13.4/bin/cmake -E remove -f CMakeFiles/cmTC_0d91a.dir/objects.a
-/usr/bin/ar cr CMakeFiles/cmTC_0d91a.dir/objects.a @CMakeFiles/cmTC_0d91a.dir/objects1.rsp
-/usr/bin/x86_64-w64-mingw32-g++      -Wl,--whole-archive CMakeFiles/cmTC_0d91a.dir/objects.a -Wl,--no-whole-archive  -o cmTC_0d91a.exe -Wl,--out-implib,libcmTC_0d91a.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_0d91a.dir/linklibs.rsp
-make[1]: Leaving directory '/home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_83a28/fast"
+/usr/bin/make -f CMakeFiles/cmTC_83a28.dir/build.make CMakeFiles/cmTC_83a28.dir/build
+make[1]: Entering directory '/home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_83a28.dir/testCXXCompiler.cxx.obj
+/usr/bin/x86_64-w64-mingw32-g++     -o CMakeFiles/cmTC_83a28.dir/testCXXCompiler.cxx.obj -c /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_83a28.exe
+/home/linuxbrew/.linuxbrew/Cellar/cmake/3.13.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83a28.dir/link.txt --verbose=1
+/home/linuxbrew/.linuxbrew/Cellar/cmake/3.13.4/bin/cmake -E remove -f CMakeFiles/cmTC_83a28.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar cr CMakeFiles/cmTC_83a28.dir/objects.a @CMakeFiles/cmTC_83a28.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-g++      -Wl,--whole-archive CMakeFiles/cmTC_83a28.dir/objects.a -Wl,--no-whole-archive  -o cmTC_83a28.exe -Wl,--out-implib,libcmTC_83a28.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_83a28.dir/linklibs.rsp
+make[1]: Leaving directory '/home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp
+Change Dir: /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b472b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b472b.dir/build.make CMakeFiles/cmTC_b472b.dir/build
-make[1]: Entering directory '/home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b472b.dir/CMakeCXXCompilerABI.cpp.obj
-/usr/bin/x86_64-w64-mingw32-g++     -o CMakeFiles/cmTC_b472b.dir/CMakeCXXCompilerABI.cpp.obj -c /home/linuxbrew/.linuxbrew/Cellar/cmake/3.13.4/share/cmake/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_b472b.exe
-/home/linuxbrew/.linuxbrew/Cellar/cmake/3.13.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b472b.dir/link.txt --verbose=1
-/home/linuxbrew/.linuxbrew/Cellar/cmake/3.13.4/bin/cmake -E remove -f CMakeFiles/cmTC_b472b.dir/objects.a
-/usr/bin/ar cr CMakeFiles/cmTC_b472b.dir/objects.a @CMakeFiles/cmTC_b472b.dir/objects1.rsp
-/usr/bin/x86_64-w64-mingw32-g++     -v -Wl,--whole-archive CMakeFiles/cmTC_b472b.dir/objects.a -Wl,--no-whole-archive  -o cmTC_b472b.exe -Wl,--out-implib,libcmTC_b472b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Run Build Command:"/usr/bin/make" "cmTC_e4dea/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e4dea.dir/build.make CMakeFiles/cmTC_e4dea.dir/build
+make[1]: Entering directory '/home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e4dea.dir/CMakeCXXCompilerABI.cpp.obj
+/usr/bin/x86_64-w64-mingw32-g++     -o CMakeFiles/cmTC_e4dea.dir/CMakeCXXCompilerABI.cpp.obj -c /home/linuxbrew/.linuxbrew/Cellar/cmake/3.13.4/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_e4dea.exe
+/home/linuxbrew/.linuxbrew/Cellar/cmake/3.13.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4dea.dir/link.txt --verbose=1
+/home/linuxbrew/.linuxbrew/Cellar/cmake/3.13.4/bin/cmake -E remove -f CMakeFiles/cmTC_e4dea.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar cr CMakeFiles/cmTC_e4dea.dir/objects.a @CMakeFiles/cmTC_e4dea.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-g++     -v -Wl,--whole-archive CMakeFiles/cmTC_e4dea.dir/objects.a -Wl,--no-whole-archive  -o cmTC_e4dea.exe -Wl,--out-implib,libcmTC_e4dea.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/x86_64-w64-mingw32-g++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/lto-wrapper
@@ -246,26 +246,26 @@ Thread model: win32
 gcc version 7.3-win32 20180312 (GCC) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/:/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/:/usr/lib/gcc/x86_64-w64-mingw32/:/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/:/usr/lib/gcc/x86_64-w64-mingw32/:/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/../../../../x86_64-w64-mingw32/bin/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/:/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/../../../../x86_64-w64-mingw32/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b472b.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/collect2 -m i386pep -Bdynamic -o cmTC_b472b.exe /usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o /usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/crtbegin.o -L/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32 -L/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/../../../../x86_64-w64-mingw32/lib --whole-archive CMakeFiles/cmTC_b472b.dir/objects.a --no-whole-archive --out-implib libcmTC_b472b.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt /usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/crtend.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b472b.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e4dea.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/collect2 -m i386pep -Bdynamic -o cmTC_e4dea.exe /usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o /usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/crtbegin.o -L/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32 -L/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/../../../../x86_64-w64-mingw32/lib --whole-archive CMakeFiles/cmTC_e4dea.dir/objects.a --no-whole-archive --out-implib libcmTC_e4dea.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt /usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e4dea.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
-  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp]
+  link line regex: [^( *|.*[/\])(x86_64-w64-mingw32-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_b472b/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_b472b.dir/build.make CMakeFiles/cmTC_b472b.dir/build]
-  ignore line: [make[1]: Entering directory '/home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_b472b.dir/CMakeCXXCompilerABI.cpp.obj]
-  ignore line: [/usr/bin/x86_64-w64-mingw32-g++     -o CMakeFiles/cmTC_b472b.dir/CMakeCXXCompilerABI.cpp.obj -c /home/linuxbrew/.linuxbrew/Cellar/cmake/3.13.4/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_b472b.exe]
-  ignore line: [/home/linuxbrew/.linuxbrew/Cellar/cmake/3.13.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b472b.dir/link.txt --verbose=1]
-  ignore line: [/home/linuxbrew/.linuxbrew/Cellar/cmake/3.13.4/bin/cmake -E remove -f CMakeFiles/cmTC_b472b.dir/objects.a]
-  ignore line: [/usr/bin/ar cr CMakeFiles/cmTC_b472b.dir/objects.a @CMakeFiles/cmTC_b472b.dir/objects1.rsp]
-  ignore line: [/usr/bin/x86_64-w64-mingw32-g++     -v -Wl,--whole-archive CMakeFiles/cmTC_b472b.dir/objects.a -Wl,--no-whole-archive  -o cmTC_b472b.exe -Wl,--out-implib,libcmTC_b472b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_e4dea/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_e4dea.dir/build.make CMakeFiles/cmTC_e4dea.dir/build]
+  ignore line: [make[1]: Entering directory '/home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_e4dea.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [/usr/bin/x86_64-w64-mingw32-g++     -o CMakeFiles/cmTC_e4dea.dir/CMakeCXXCompilerABI.cpp.obj -c /home/linuxbrew/.linuxbrew/Cellar/cmake/3.13.4/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_e4dea.exe]
+  ignore line: [/home/linuxbrew/.linuxbrew/Cellar/cmake/3.13.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4dea.dir/link.txt --verbose=1]
+  ignore line: [/home/linuxbrew/.linuxbrew/Cellar/cmake/3.13.4/bin/cmake -E remove -f CMakeFiles/cmTC_e4dea.dir/objects.a]
+  ignore line: [/usr/bin/x86_64-w64-mingw32-ar cr CMakeFiles/cmTC_e4dea.dir/objects.a @CMakeFiles/cmTC_e4dea.dir/objects1.rsp]
+  ignore line: [/usr/bin/x86_64-w64-mingw32-g++     -v -Wl,--whole-archive CMakeFiles/cmTC_e4dea.dir/objects.a -Wl,--no-whole-archive  -o cmTC_e4dea.exe -Wl,--out-implib,libcmTC_e4dea.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/x86_64-w64-mingw32-g++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/lto-wrapper]
@@ -275,23 +275,23 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 7.3-win32 20180312 (GCC) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/:/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/:/usr/lib/gcc/x86_64-w64-mingw32/:/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/:/usr/lib/gcc/x86_64-w64-mingw32/:/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/../../../../x86_64-w64-mingw32/bin/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/:/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/../../../../x86_64-w64-mingw32/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b472b.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/collect2 -m i386pep -Bdynamic -o cmTC_b472b.exe /usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o /usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/crtbegin.o -L/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32 -L/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/../../../../x86_64-w64-mingw32/lib --whole-archive CMakeFiles/cmTC_b472b.dir/objects.a --no-whole-archive --out-implib libcmTC_b472b.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt /usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/crtend.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e4dea.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/collect2 -m i386pep -Bdynamic -o cmTC_e4dea.exe /usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o /usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/crtbegin.o -L/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32 -L/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/../../../../x86_64-w64-mingw32/lib --whole-archive CMakeFiles/cmTC_e4dea.dir/objects.a --no-whole-archive --out-implib libcmTC_e4dea.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt /usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/crtend.o]
     arg [/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/collect2] ==> ignore
     arg [-m] ==> ignore
     arg [i386pep] ==> ignore
     arg [-Bdynamic] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_b472b.exe] ==> ignore
+    arg [cmTC_e4dea.exe] ==> ignore
     arg [/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/crtbegin.o] ==> ignore
     arg [-L/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32] ==> dir [/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32]
     arg [-L/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/../../../../x86_64-w64-mingw32/lib] ==> dir [/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/../../../../x86_64-w64-mingw32/lib]
     arg [--whole-archive] ==> ignore
-    arg [CMakeFiles/cmTC_b472b.dir/objects.a] ==> ignore
+    arg [CMakeFiles/cmTC_e4dea.dir/objects.a] ==> ignore
     arg [--no-whole-archive] ==> ignore
     arg [--out-implib] ==> ignore
-    arg [libcmTC_b472b.dll.a] ==> ignore
+    arg [libcmTC_e4dea.dll.a] ==> ignore
     arg [--major-image-version] ==> ignore
     arg [0] ==> ignore
     arg [--minor-image-version] ==> ignore
@@ -326,19 +326,19 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp
+Change Dir: /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_cf6ea/fast"
-/usr/bin/make -f CMakeFiles/cmTC_cf6ea.dir/build.make CMakeFiles/cmTC_cf6ea.dir/build
-make[1]: Entering directory '/home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_cf6ea.dir/feature_tests.cxx.obj
-/usr/bin/x86_64-w64-mingw32-g++    -std=c++1z -o CMakeFiles/cmTC_cf6ea.dir/feature_tests.cxx.obj -c /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_cf6ea.exe
-/home/linuxbrew/.linuxbrew/Cellar/cmake/3.13.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf6ea.dir/link.txt --verbose=1
-/home/linuxbrew/.linuxbrew/Cellar/cmake/3.13.4/bin/cmake -E remove -f CMakeFiles/cmTC_cf6ea.dir/objects.a
-/usr/bin/ar cr CMakeFiles/cmTC_cf6ea.dir/objects.a @CMakeFiles/cmTC_cf6ea.dir/objects1.rsp
-/usr/bin/x86_64-w64-mingw32-g++      -Wl,--whole-archive CMakeFiles/cmTC_cf6ea.dir/objects.a -Wl,--no-whole-archive  -o cmTC_cf6ea.exe -Wl,--out-implib,libcmTC_cf6ea.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_cf6ea.dir/linklibs.rsp
-make[1]: Leaving directory '/home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_2985b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2985b.dir/build.make CMakeFiles/cmTC_2985b.dir/build
+make[1]: Entering directory '/home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2985b.dir/feature_tests.cxx.obj
+/usr/bin/x86_64-w64-mingw32-g++    -std=c++1z -o CMakeFiles/cmTC_2985b.dir/feature_tests.cxx.obj -c /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_2985b.exe
+/home/linuxbrew/.linuxbrew/Cellar/cmake/3.13.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2985b.dir/link.txt --verbose=1
+/home/linuxbrew/.linuxbrew/Cellar/cmake/3.13.4/bin/cmake -E remove -f CMakeFiles/cmTC_2985b.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar cr CMakeFiles/cmTC_2985b.dir/objects.a @CMakeFiles/cmTC_2985b.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-g++      -Wl,--whole-archive CMakeFiles/cmTC_2985b.dir/objects.a -Wl,--no-whole-archive  -o cmTC_2985b.exe -Wl,--out-implib,libcmTC_2985b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_2985b.dir/linklibs.rsp
+make[1]: Leaving directory '/home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -401,19 +401,19 @@ make[1]: Leaving directory '/home/diprotiv/Desktop/Test/noise-suppression-for-vo
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp
+Change Dir: /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_7bf03/fast"
-/usr/bin/make -f CMakeFiles/cmTC_7bf03.dir/build.make CMakeFiles/cmTC_7bf03.dir/build
-make[1]: Entering directory '/home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_7bf03.dir/feature_tests.cxx.obj
-/usr/bin/x86_64-w64-mingw32-g++    -std=c++14 -o CMakeFiles/cmTC_7bf03.dir/feature_tests.cxx.obj -c /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_7bf03.exe
-/home/linuxbrew/.linuxbrew/Cellar/cmake/3.13.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7bf03.dir/link.txt --verbose=1
-/home/linuxbrew/.linuxbrew/Cellar/cmake/3.13.4/bin/cmake -E remove -f CMakeFiles/cmTC_7bf03.dir/objects.a
-/usr/bin/ar cr CMakeFiles/cmTC_7bf03.dir/objects.a @CMakeFiles/cmTC_7bf03.dir/objects1.rsp
-/usr/bin/x86_64-w64-mingw32-g++      -Wl,--whole-archive CMakeFiles/cmTC_7bf03.dir/objects.a -Wl,--no-whole-archive  -o cmTC_7bf03.exe -Wl,--out-implib,libcmTC_7bf03.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_7bf03.dir/linklibs.rsp
-make[1]: Leaving directory '/home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_2f61b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2f61b.dir/build.make CMakeFiles/cmTC_2f61b.dir/build
+make[1]: Entering directory '/home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2f61b.dir/feature_tests.cxx.obj
+/usr/bin/x86_64-w64-mingw32-g++    -std=c++14 -o CMakeFiles/cmTC_2f61b.dir/feature_tests.cxx.obj -c /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_2f61b.exe
+/home/linuxbrew/.linuxbrew/Cellar/cmake/3.13.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f61b.dir/link.txt --verbose=1
+/home/linuxbrew/.linuxbrew/Cellar/cmake/3.13.4/bin/cmake -E remove -f CMakeFiles/cmTC_2f61b.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar cr CMakeFiles/cmTC_2f61b.dir/objects.a @CMakeFiles/cmTC_2f61b.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-g++      -Wl,--whole-archive CMakeFiles/cmTC_2f61b.dir/objects.a -Wl,--no-whole-archive  -o cmTC_2f61b.exe -Wl,--out-implib,libcmTC_2f61b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_2f61b.dir/linklibs.rsp
+make[1]: Leaving directory '/home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -476,19 +476,19 @@ make[1]: Leaving directory '/home/diprotiv/Desktop/Test/noise-suppression-for-vo
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp
+Change Dir: /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b2593/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b2593.dir/build.make CMakeFiles/cmTC_b2593.dir/build
-make[1]: Entering directory '/home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b2593.dir/feature_tests.cxx.obj
-/usr/bin/x86_64-w64-mingw32-g++    -std=c++11 -o CMakeFiles/cmTC_b2593.dir/feature_tests.cxx.obj -c /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_b2593.exe
-/home/linuxbrew/.linuxbrew/Cellar/cmake/3.13.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b2593.dir/link.txt --verbose=1
-/home/linuxbrew/.linuxbrew/Cellar/cmake/3.13.4/bin/cmake -E remove -f CMakeFiles/cmTC_b2593.dir/objects.a
-/usr/bin/ar cr CMakeFiles/cmTC_b2593.dir/objects.a @CMakeFiles/cmTC_b2593.dir/objects1.rsp
-/usr/bin/x86_64-w64-mingw32-g++      -Wl,--whole-archive CMakeFiles/cmTC_b2593.dir/objects.a -Wl,--no-whole-archive  -o cmTC_b2593.exe -Wl,--out-implib,libcmTC_b2593.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_b2593.dir/linklibs.rsp
-make[1]: Leaving directory '/home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_8aeb8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8aeb8.dir/build.make CMakeFiles/cmTC_8aeb8.dir/build
+make[1]: Entering directory '/home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8aeb8.dir/feature_tests.cxx.obj
+/usr/bin/x86_64-w64-mingw32-g++    -std=c++11 -o CMakeFiles/cmTC_8aeb8.dir/feature_tests.cxx.obj -c /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_8aeb8.exe
+/home/linuxbrew/.linuxbrew/Cellar/cmake/3.13.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8aeb8.dir/link.txt --verbose=1
+/home/linuxbrew/.linuxbrew/Cellar/cmake/3.13.4/bin/cmake -E remove -f CMakeFiles/cmTC_8aeb8.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar cr CMakeFiles/cmTC_8aeb8.dir/objects.a @CMakeFiles/cmTC_8aeb8.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-g++      -Wl,--whole-archive CMakeFiles/cmTC_8aeb8.dir/objects.a -Wl,--no-whole-archive  -o cmTC_8aeb8.exe -Wl,--out-implib,libcmTC_8aeb8.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_8aeb8.dir/linklibs.rsp
+make[1]: Leaving directory '/home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -551,19 +551,19 @@ make[1]: Leaving directory '/home/diprotiv/Desktop/Test/noise-suppression-for-vo
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp
+Change Dir: /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3ccc4/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3ccc4.dir/build.make CMakeFiles/cmTC_3ccc4.dir/build
-make[1]: Entering directory '/home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_3ccc4.dir/feature_tests.cxx.obj
-/usr/bin/x86_64-w64-mingw32-g++    -std=c++98 -o CMakeFiles/cmTC_3ccc4.dir/feature_tests.cxx.obj -c /home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_3ccc4.exe
-/home/linuxbrew/.linuxbrew/Cellar/cmake/3.13.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ccc4.dir/link.txt --verbose=1
-/home/linuxbrew/.linuxbrew/Cellar/cmake/3.13.4/bin/cmake -E remove -f CMakeFiles/cmTC_3ccc4.dir/objects.a
-/usr/bin/ar cr CMakeFiles/cmTC_3ccc4.dir/objects.a @CMakeFiles/cmTC_3ccc4.dir/objects1.rsp
-/usr/bin/x86_64-w64-mingw32-g++      -Wl,--whole-archive CMakeFiles/cmTC_3ccc4.dir/objects.a -Wl,--no-whole-archive  -o cmTC_3ccc4.exe -Wl,--out-implib,libcmTC_3ccc4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_3ccc4.dir/linklibs.rsp
-make[1]: Leaving directory '/home/diprotiv/Desktop/Test/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_1c3ed/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1c3ed.dir/build.make CMakeFiles/cmTC_1c3ed.dir/build
+make[1]: Entering directory '/home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1c3ed.dir/feature_tests.cxx.obj
+/usr/bin/x86_64-w64-mingw32-g++    -std=c++98 -o CMakeFiles/cmTC_1c3ed.dir/feature_tests.cxx.obj -c /home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_1c3ed.exe
+/home/linuxbrew/.linuxbrew/Cellar/cmake/3.13.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c3ed.dir/link.txt --verbose=1
+/home/linuxbrew/.linuxbrew/Cellar/cmake/3.13.4/bin/cmake -E remove -f CMakeFiles/cmTC_1c3ed.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar cr CMakeFiles/cmTC_1c3ed.dir/objects.a @CMakeFiles/cmTC_1c3ed.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-g++      -Wl,--whole-archive CMakeFiles/cmTC_1c3ed.dir/objects.a -Wl,--no-whole-archive  -o cmTC_1c3ed.exe -Wl,--out-implib,libcmTC_1c3ed.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_1c3ed.dir/linklibs.rsp
+make[1]: Leaving directory '/home/diprotiv/Desktop/Test/NoisePlugin/noise-suppression-for-voice/build-mingw64/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
